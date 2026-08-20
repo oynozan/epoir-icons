@@ -1,0 +1,16 @@
+# dependencies
+node_modules/
+
+# build output
+dist/
+apps/web/.next/
+*.tsbuildinfo
+
+# local tooling
+.playwright-mcp/
+.claude/
+.agents/
+skills-lock.json
+
+# env
+.env*

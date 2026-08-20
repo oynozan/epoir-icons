@@ -1,0 +1,13 @@
+{
+  "name": "epoir-icons-monorepo",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "build:icons": "npm run build --workspace=epoir-icons",
+    "build": "npm run build:icons && npm run build --workspace=web",
+    "dev": "npm run build:icons && npm run dev --workspace=web"
+  }
+}
