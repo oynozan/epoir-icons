@@ -18,7 +18,13 @@
   ],
   "scripts": {
     "build": "tsc",
+    "prepack": "npm run build",
     "dev": "tsc --watch --preserveWatchOutput"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oynozan/epoir-icons.git",
+    "directory": "packages/icons"
   },
   "dependencies": {
     "motion": "^12.42.2"
