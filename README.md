@@ -1,8 +1,14 @@
 # epoir-icons
 
-Animated icon library forked from [Lucide](https://lucide.dev). Every icon has a bespoke, characterful animation — smoke rises, maps unfold, balls get thrown, shredders shred.
+Animated icon library forked from [Lucide](https://lucide.dev).
 
-> Work in progress — icons are being added category by category. Not yet published to npm.
+> Work in progress — icons are being added category by category.
+
+## Installation
+
+```sh
+npm i epoir-icons
+```
 
 ## Usage
 
@@ -16,15 +22,8 @@ Icons animate on hover and settle back to the exact source glyph.
 
 ## Repo layout
 
-- `packages/icons` — the library (this is all that ships to npm)
+- `packages/icons` — the library
 - `apps/web` — demo gallery ([Next.js](https://nextjs.org))
-
-## Development
-
-```sh
-npm install
-npm run dev   # builds the icons package and starts the gallery
-```
 
 ## License
 
